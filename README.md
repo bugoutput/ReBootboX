@@ -6,4 +6,4 @@ The [User Guide](https://github.com/bugoutput/ReBootboX/master/userguidev0.pdf) 
 
 In the near future I'll add a BoM and the Arduino source code. The unit cost for the device as shown is $30 sourcing all parts from Amazon Prime. 
 
-![Image](https://github.com/bugoutput/ReBootboX/master/rebootBox.jpg)
+![Image](https://github.com/bugoutput/ReBootboX/blob/master/rebootBox.jpg)
