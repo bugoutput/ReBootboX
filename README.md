@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## ReBootBox (RBX) is a Kludge to Remotely Power-Cycle Seismic Stations Using RT130 Dataloggers/Sierra 3G Modems
 
-You can use the [editor on GitHub](https://github.com/bugoutput/ReBootboX/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Currently the RBX is purpose-built for Anne Sheehan et al.'s [Weld County Seismic Experiment](https://cires.colorado.edu/news/preventing-human-caused-earthquakes) to save us from having to drive four hours round-trip just to power-cycle our stations whenever there's a telemetry dropout. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The [User Guide](https://github.com/bugoutput/ReBootboX/master/userguidev0.pdf) contains a basic overview of the RBX system and how to talk to it over your 3G modem's serial port. 
 
-### Markdown
+In the near future I'll add a BoM and the Arduino source code. The unit cost for the device as shown is $30 sourcing all parts from Amazon Prime. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bugoutput/ReBootboX/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Image](https://github.com/bugoutput/ReBootboX/master/rebootBox.jpg)
