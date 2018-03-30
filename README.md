@@ -2,7 +2,11 @@
 
 Currently the RBX is purpose-built for Anne Sheehan et al.'s [Weld County Seismic Experiment](https://cires.colorado.edu/news/preventing-human-caused-earthquakes) to save us from having to drive four hours round-trip just to power-cycle our stations whenever there's a telemetry dropout. 
 
-The [User Guide](https://github.com/bugoutput/ReBootboX/blob/master/rbxuserguidev0.pdf) contains a basic overview of the RBX system and how to talk to it over your 3G modem's serial port. 
+This particular mode of telemetry failure appears to have vexed many other operators of telemetered seismic arrays incorporating RT130 loggers, AirLink modems and an RTPD server. This failure mode is characterized by the 3G modem remaining online while the RTP connection to the RT130 has been lost. Presumably some initial cell service outage triggers this situation, from which the modem eventually recovers but the RTP connection does not. 
+
+I have yet to find a better solution than power-cycling the station, which appears to have been the standard fix for [quite some time](https://geohazards.usgs.gov/pipermail/anss-netops/2011-November/000209.html). Since the modem typically remains accessible remotely during these failures, you can save yourself an annoying drive by using your modem's serial port to trigger a relay which power-cycles the station for you. The RBX is a cheap and simple example of such a device.       
+
+The [User Guide](https://github.com/bugoutput/ReBootboX/blob/master/rbxuserguidev0.pdf) contains a basic overview of the RBX system and how to control it remotely through your 3G modem's serial port. 
 
 The (extremely simple) Arduino [source code](https://github.com/bugoutput/ReBootboX/blob/master/RBX_v0.ino) is hacked together from demo code for the SoftwareSerial library and the RS232 shield we use to talk with the modem. The unit cost for the device as shown is $30, sourcing all parts from Amazon Prime.
 
